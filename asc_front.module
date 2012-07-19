@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ASC Front feature.
+ */
+
+include_once 'asc_front.features.inc';
