@@ -18,7 +18,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-block_1',
     'theme' => 'q7',
     'status' => '1',
-    'weight' => '-21',
+    'weight' => '-22',
     'region' => 'preface_first',
     'custom' => '0',
     'visibility' => '0',
@@ -33,6 +33,48 @@ function asc_front_default_fe_block_settings() {
     'theme' => 'q7',
     'status' => 0,
     'weight' => '-16',
+    'region' => '',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => -1,
+  );
+
+  $theme['views-front-front_text_short'] = array(
+    'module' => 'views',
+    'delta' => 'front-front_text_short',
+    'theme' => 'q7',
+    'status' => '1',
+    'weight' => '-21',
+    'region' => 'preface_second',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => -1,
+  );
+
+  $theme['views-front-front_text_tall'] = array(
+    'module' => 'views',
+    'delta' => 'front-front_text_tall',
+    'theme' => 'q7',
+    'status' => 0,
+    'weight' => '0',
+    'region' => '',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => -1,
+  );
+
+  $theme['views-front-quick_links_text'] = array(
+    'module' => 'views',
+    'delta' => 'front-quick_links_text',
+    'theme' => 'q7',
+    'status' => 0,
+    'weight' => '0',
     'region' => '',
     'custom' => '0',
     'visibility' => '0',

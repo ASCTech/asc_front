@@ -23,13 +23,13 @@ function asc_front_node_export_features_default() {
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1342806317\',
-      \'changed\' => \'1342806317\',
+      \'created\' => \'1342807561\',
+      \'changed\' => \'1342808970\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1342806317\',
-      \'revision_uid\' => \'0\',
+      \'revision_timestamp\' => \'1342808970\',
+      \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
           array(
@@ -48,7 +48,50 @@ function asc_front_node_export_features_default() {
           ),
         ),
       ),
-      \'field_slideshow\' => array(),
+      \'field_slideshow\' => array(
+        \'und\' => array(
+          array(
+            \'fid\' => \'1\',
+            \'alt\' => NULL,
+            \'title\' => NULL,
+            \'width\' => \'740\',
+            \'height\' => \'308\',
+            \'uid\' => \'1\',
+            \'filename\' => \'XKCD Purity Comi\',
+            \'uri\' => \'public://purity.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'32287\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1342808779\',
+            \'type\' => \'image\',
+            \'uuid\' => \'d9ec1dc8-2f54-6114-99a3-6fcb156b9758\',
+            \'field_file_image_alt_text\' => array(
+              \'und\' => array(
+                array(
+                  \'value\' => \'Some alt text.\',
+                  \'format\' => NULL,
+                  \'safe_value\' => \'Some alt text.\',
+                ),
+              ),
+            ),
+            \'field_gallery\' => array(
+              \'und\' => array(
+                array(
+                  \'value\' => \'1\',
+                ),
+              ),
+            ),
+            \'field_image_terms_1\' => array(),
+            \'field_image_terms_2\' => array(),
+            \'field_image_terms_3\' => array(),
+            \'rdf_mapping\' => array(),
+            \'image_dimensions\' => array(
+              \'width\' => \'740\',
+              \'height\' => \'308\',
+            ),
+          ),
+        ),
+      ),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
