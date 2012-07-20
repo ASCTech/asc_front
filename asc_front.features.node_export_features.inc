@@ -11,7 +11,7 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'5\',
+      \'vid\' => \'1\',
       \'uid\' => \'1\',
       \'title\' => \'Front\',
       \'log\' => \'\',
@@ -20,15 +20,15 @@ function asc_front_node_export_features_default() {
       \'promote\' => \'1\',
       \'sticky\' => \'0\',
       \'vuuid\' => \'8fc09730-d347-5f24-9128-a0be95381ccf\',
-      \'nid\' => \'5\',
+      \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1342611784\',
-      \'changed\' => \'1342703956\',
+      \'created\' => \'1342722588\',
+      \'changed\' => \'1342722588\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1342703956\',
+      \'revision_timestamp\' => \'1342722588\',
       \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
@@ -50,91 +50,23 @@ function asc_front_node_export_features_default() {
       ),
       \'field_slideshow\' => array(
         \'und\' => array(
-          array(
-            \'fid\' => \'2\',
-            \'alt\' => NULL,
-            \'title\' => NULL,
-            \'width\' => \'300\',
-            \'height\' => \'153\',
-            \'uid\' => \'1\',
-            \'filename\' => \'My Title\',
-            \'uri\' => \'public://cht_0.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'10300\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1342642095\',
-            \'type\' => \'image\',
-            \'uuid\' => \'b46cf99e-5113-7c44-698a-fb6d072d6a37\',
-            \'field_file_image_alt_text\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'alt text\',
-                  \'format\' => NULL,
-                  \'safe_value\' => \'alt text\',
-                ),
-              ),
-            ),
-            \'field_gallery\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'1\',
-                ),
-              ),
-            ),
-            \'field_image_terms_1\' => array(
-              \'und\' => array(
-                array(
-                  \'tid\' => \'2\',
-                ),
-              ),
-            ),
-            \'field_image_terms_2\' => array(),
-            \'field_image_terms_3\' => array(),
-            \'rdf_mapping\' => array(),
-            \'image_dimensions\' => array(
-              \'width\' => \'300\',
-              \'height\' => \'153\',
-            ),
-          ),
+          NULL,
           array(
             \'fid\' => \'7\',
             \'alt\' => NULL,
             \'title\' => NULL,
             \'width\' => \'740\',
             \'height\' => \'308\',
-            \'uid\' => \'1\',
-            \'filename\' => \'purity.png\',
-            \'uri\' => \'public://purity.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'32287\',
+            \'uid\' => \'0\',
+            \'filename\' => \'\',
+            \'uri\' => \'\',
+            \'filemime\' => \'application/octet-stream\',
+            \'filesize\' => \'0\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1342703950\',
-            \'type\' => \'image\',
-            \'uuid\' => \'b0296c38-8176-ae44-3d05-160bc72a1a5a\',
-            \'field_file_image_alt_text\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'Alt text\',
-                  \'format\' => NULL,
-                  \'safe_value\' => \'Alt text\',
-                ),
-              ),
-            ),
-            \'field_gallery\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'0\',
-                ),
-              ),
-            ),
-            \'field_image_terms_1\' => array(),
-            \'field_image_terms_2\' => array(),
-            \'field_image_terms_3\' => array(),
+            \'timestamp\' => \'1342722588\',
+            \'type\' => \'application\',
+            \'uuid\' => \'1e67c784-0049-9604-15ff-f2cba15dacfb\',
             \'rdf_mapping\' => array(),
-            \'image_dimensions\' => array(
-              \'width\' => \'740\',
-              \'height\' => \'308\',
-            ),
           ),
         ),
       ),
@@ -196,12 +128,7 @@ function asc_front_node_export_features_default() {
       \'name\' => \'admin\',
       \'picture\' => \'0\',
       \'data\' => \'b:0;\',
-      \'path\' => array(
-        \'pid\' => \'1\',
-        \'source\' => \'node/5\',
-        \'alias\' => \'front-page\',
-        \'language\' => \'und\',
-      ),
+      \'path\' => FALSE,
       \'menu\' => array(
         \'link_title\' => \'\',
         \'mlid\' => 0,
