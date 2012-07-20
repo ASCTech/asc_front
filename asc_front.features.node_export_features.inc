@@ -11,8 +11,8 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'2\',
-      \'uid\' => \'1\',
+      \'vid\' => \'1\',
+      \'uid\' => \'0\',
       \'title\' => \'Front\',
       \'log\' => \'\',
       \'status\' => \'1\',
@@ -23,13 +23,13 @@ function asc_front_node_export_features_default() {
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1342722588\',
-      \'changed\' => \'1342791076\',
+      \'created\' => \'1342806317\',
+      \'changed\' => \'1342806317\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1342791076\',
-      \'revision_uid\' => \'1\',
+      \'revision_timestamp\' => \'1342806317\',
+      \'revision_uid\' => \'0\',
       \'body\' => array(
         \'und\' => array(
           array(
@@ -104,10 +104,15 @@ function asc_front_node_export_features_default() {
           \'callback\' => \'date_iso8601\',
         ),
       ),
-      \'name\' => \'admin\',
+      \'name\' => \'\',
       \'picture\' => \'0\',
-      \'data\' => \'b:0;\',
-      \'path\' => FALSE,
+      \'data\' => NULL,
+      \'path\' => array(
+        \'pid\' => \'1\',
+        \'source\' => \'node/1\',
+        \'alias\' => \'content/front\',
+        \'language\' => \'und\',
+      ),
       \'menu\' => array(
         \'link_title\' => \'\',
         \'mlid\' => 0,
