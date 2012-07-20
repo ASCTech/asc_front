@@ -6,6 +6,7 @@ php = 5.2.4
 version = 7.x-1.0
 project = asc_front
 dependencies[] = asc_image_handling
+dependencies[] = pathauto
 dependencies[] = ctools
 dependencies[] = ds
 dependencies[] = fe_block
