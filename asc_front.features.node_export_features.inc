@@ -11,7 +11,7 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'1\',
+      \'vid\' => \'2\',
       \'uid\' => \'1\',
       \'title\' => \'Front\',
       \'log\' => \'\',
@@ -19,25 +19,25 @@ function asc_front_node_export_features_default() {
       \'comment\' => \'0\',
       \'promote\' => \'1\',
       \'sticky\' => \'0\',
-      \'vuuid\' => \'8fc09730-d347-5f24-9128-a0be95381ccf\',
+      \'vuuid\' => \'4d064864-7964-3fe4-5dbe-ea318215234d\',
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
       \'created\' => \'1342722588\',
-      \'changed\' => \'1342722588\',
+      \'changed\' => \'1342791076\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1342722588\',
+      \'revision_timestamp\' => \'1342791076\',
       \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
           array(
             \'value\' => \'<p>This is our front page text.</p>\',
-            \'summary\' => \'\',
+            \'summary\' => "This is a quick bit of information to be displayed on the front page under \'Quick Links.\'",
             \'format\' => \'html\',
             \'safe_value\' => \' <p>This is our front page text.</p> \',
-            \'safe_summary\' => \'  \',
+            \'safe_summary\' => " This is a quick bit of information to be displayed on the front page under \'Quick Links.\' ",
           ),
         ),
       ),
@@ -48,28 +48,7 @@ function asc_front_node_export_features_default() {
           ),
         ),
       ),
-      \'field_slideshow\' => array(
-        \'und\' => array(
-          NULL,
-          array(
-            \'fid\' => \'7\',
-            \'alt\' => NULL,
-            \'title\' => NULL,
-            \'width\' => \'740\',
-            \'height\' => \'308\',
-            \'uid\' => \'0\',
-            \'filename\' => \'\',
-            \'uri\' => \'\',
-            \'filemime\' => \'application/octet-stream\',
-            \'filesize\' => \'0\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1342722588\',
-            \'type\' => \'application\',
-            \'uuid\' => \'1e67c784-0049-9604-15ff-f2cba15dacfb\',
-            \'rdf_mapping\' => array(),
-          ),
-        ),
-      ),
+      \'field_slideshow\' => array(),
       \'rdf_mapping\' => array(
         \'rdftype\' => array(
           \'sioc:Item\',
