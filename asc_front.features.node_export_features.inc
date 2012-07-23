@@ -11,7 +11,7 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'1\',
+      \'vid\' => \'2\',
       \'uid\' => \'0\',
       \'title\' => \'Front\',
       \'log\' => \'\',
@@ -19,16 +19,16 @@ function asc_front_node_export_features_default() {
       \'comment\' => \'0\',
       \'promote\' => \'1\',
       \'sticky\' => \'0\',
-      \'vuuid\' => \'4d064864-7964-3fe4-5dbe-ea318215234d\',
+      \'vuuid\' => \'1cbc5ec2-2f06-7114-3907-8e1faa3c69f0\',
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1342807561\',
-      \'changed\' => \'1342808970\',
+      \'created\' => \'1342810692\',
+      \'changed\' => \'1343044731\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1342808970\',
+      \'revision_timestamp\' => \'1343044731\',
       \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
@@ -51,33 +51,33 @@ function asc_front_node_export_features_default() {
       \'field_slideshow\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'1\',
+            \'fid\' => \'2\',
             \'alt\' => NULL,
             \'title\' => NULL,
             \'width\' => \'740\',
             \'height\' => \'308\',
             \'uid\' => \'1\',
-            \'filename\' => \'XKCD Purity Comi\',
+            \'filename\' => \'purity.png\',
             \'uri\' => \'public://purity.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'32287\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1342808779\',
+            \'timestamp\' => \'1343044727\',
             \'type\' => \'image\',
-            \'uuid\' => \'d9ec1dc8-2f54-6114-99a3-6fcb156b9758\',
+            \'uuid\' => \'fbe09364-8710-4354-95f6-dfbb6a101bfa\',
             \'field_file_image_alt_text\' => array(
               \'und\' => array(
                 array(
-                  \'value\' => \'Some alt text.\',
+                  \'value\' => \'alt text\',
                   \'format\' => NULL,
-                  \'safe_value\' => \'Some alt text.\',
+                  \'safe_value\' => \'alt text\',
                 ),
               ),
             ),
             \'field_gallery\' => array(
               \'und\' => array(
                 array(
-                  \'value\' => \'1\',
+                  \'value\' => \'0\',
                 ),
               ),
             ),
