@@ -11,7 +11,7 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'3\',
+      \'vid\' => \'2\',
       \'uid\' => \'0\',
       \'title\' => \'Front\',
       \'log\' => \'\',
@@ -19,16 +19,16 @@ function asc_front_node_export_features_default() {
       \'comment\' => \'0\',
       \'promote\' => \'1\',
       \'sticky\' => \'0\',
-      \'vuuid\' => \'7fa76da8-2053-a4b4-b118-74e69cdc27a4\',
+      \'vuuid\' => \'1cbc5ec2-2f06-7114-3907-8e1faa3c69f0\',
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1343129095\',
-      \'changed\' => \'1343132676\',
+      \'created\' => \'1342810692\',
+      \'changed\' => \'1343044731\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1343132676\',
+      \'revision_timestamp\' => \'1343044731\',
       \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
@@ -57,27 +57,27 @@ function asc_front_node_export_features_default() {
             \'width\' => \'740\',
             \'height\' => \'308\',
             \'uid\' => \'1\',
-            \'filename\' => \'sdfsdfpurity.png\',
+            \'filename\' => \'purity.png\',
             \'uri\' => \'public://purity.png\',
             \'filemime\' => \'image/png\',
             \'filesize\' => \'32287\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1343130321\',
+            \'timestamp\' => \'1343044727\',
             \'type\' => \'image\',
-            \'uuid\' => \'f94892ff-2c61-aa24-216f-a99e77be2455\',
+            \'uuid\' => \'fbe09364-8710-4354-95f6-dfbb6a101bfa\',
             \'field_file_image_alt_text\' => array(
               \'und\' => array(
                 array(
-                  \'value\' => \'sdf\',
+                  \'value\' => \'alt text\',
                   \'format\' => NULL,
-                  \'safe_value\' => \'sdf\',
+                  \'safe_value\' => \'alt text\',
                 ),
               ),
             ),
             \'field_gallery\' => array(
               \'und\' => array(
                 array(
-                  \'value\' => \'1\',
+                  \'value\' => \'0\',
                 ),
               ),
             ),
@@ -88,46 +88,6 @@ function asc_front_node_export_features_default() {
             \'image_dimensions\' => array(
               \'width\' => \'740\',
               \'height\' => \'308\',
-            ),
-          ),
-          array(
-            \'fid\' => \'3\',
-            \'alt\' => NULL,
-            \'title\' => NULL,
-            \'width\' => \'250\',
-            \'height\' => \'220\',
-            \'uid\' => \'1\',
-            \'filename\' => \'Another Picture\',
-            \'uri\' => \'public://butsko7.png\',
-            \'filemime\' => \'image/png\',
-            \'filesize\' => \'12100\',
-            \'status\' => \'1\',
-            \'timestamp\' => \'1343132672\',
-            \'type\' => \'image\',
-            \'uuid\' => \'442c327c-bd8f-e7f4-dd2b-b52c5017b9c1\',
-            \'field_file_image_alt_text\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'sdgsdg\',
-                  \'format\' => NULL,
-                  \'safe_value\' => \'sdgsdg\',
-                ),
-              ),
-            ),
-            \'field_gallery\' => array(
-              \'und\' => array(
-                array(
-                  \'value\' => \'1\',
-                ),
-              ),
-            ),
-            \'field_image_terms_1\' => array(),
-            \'field_image_terms_2\' => array(),
-            \'field_image_terms_3\' => array(),
-            \'rdf_mapping\' => array(),
-            \'image_dimensions\' => array(
-              \'width\' => \'250\',
-              \'height\' => \'220\',
             ),
           ),
         ),
