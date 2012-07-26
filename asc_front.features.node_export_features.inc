@@ -11,7 +11,7 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'1\',
+      \'vid\' => \'2\',
       \'uid\' => \'0\',
       \'title\' => \'Front\',
       \'log\' => \'\',
@@ -23,13 +23,13 @@ function asc_front_node_export_features_default() {
       \'nid\' => \'1\',
       \'type\' => \'page\',
       \'language\' => \'und\',
-      \'created\' => \'1343319634\',
-      \'changed\' => \'1343319634\',
+      \'created\' => \'1342810692\',
+      \'changed\' => \'1343044731\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'412d6e2c-c219-0094-1d44-ea6a62b96eb9\',
-      \'revision_timestamp\' => \'1343319634\',
-      \'revision_uid\' => \'0\',
+      \'revision_timestamp\' => \'1343044731\',
+      \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
           array(
@@ -50,7 +50,46 @@ function asc_front_node_export_features_default() {
       ),
       \'field_slideshow\' => array(
         \'und\' => array(
-          NULL,
+          array(
+            \'fid\' => \'2\',
+            \'alt\' => NULL,
+            \'title\' => NULL,
+            \'width\' => \'740\',
+            \'height\' => \'308\',
+            \'uid\' => \'1\',
+            \'filename\' => \'purity.png\',
+            \'uri\' => \'public://purity.png\',
+            \'filemime\' => \'image/png\',
+            \'filesize\' => \'32287\',
+            \'status\' => \'1\',
+            \'timestamp\' => \'1343044727\',
+            \'type\' => \'image\',
+            \'uuid\' => \'fbe09364-8710-4354-95f6-dfbb6a101bfa\',
+            \'field_file_image_alt_text\' => array(
+              \'und\' => array(
+                array(
+                  \'value\' => \'alt text\',
+                  \'format\' => NULL,
+                  \'safe_value\' => \'alt text\',
+                ),
+              ),
+            ),
+            \'field_gallery\' => array(
+              \'und\' => array(
+                array(
+                  \'value\' => \'0\',
+                ),
+              ),
+            ),
+            \'field_image_terms_1\' => array(),
+            \'field_image_terms_2\' => array(),
+            \'field_image_terms_3\' => array(),
+            \'rdf_mapping\' => array(),
+            \'image_dimensions\' => array(
+              \'width\' => \'740\',
+              \'height\' => \'308\',
+            ),
+          ),
         ),
       ),
       \'rdf_mapping\' => array(
