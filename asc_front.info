@@ -26,6 +26,4 @@ features[fe_block_settings][] = views-front-quick_links_text
 features[features_api][] = api:1
 features[menu_custom][] = menu-quick-links
 features[node_export_features][] = 412d6e2c-c219-0094-1d44-ea6a62b96eb9
-features[variable][] = socialmedia_icon_default_style
-features[variable][] = socialmedia_platforms_site
 features[views_view][] = front
