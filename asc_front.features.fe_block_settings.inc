@@ -10,6 +10,36 @@
 function asc_front_default_fe_block_settings() {
   $export = array();
 
+  $export['version'] = '1.0';
+
+  // Theme independent visibility settings.
+  $export['visibility'] = array(
+    'menu-menu-quick-links' => array(
+      'delta' => 'menu-quick-links',
+      'module' => 'menu',
+    ),
+    'views-front-block_1' => array(
+      'delta' => 'front-block_1',
+      'module' => 'views',
+    ),
+    'views-front-block_2' => array(
+      'delta' => 'front-block_2',
+      'module' => 'views',
+    ),
+    'views-front-front_text_short' => array(
+      'delta' => 'front-front_text_short',
+      'module' => 'views',
+    ),
+    'views-front-front_text_tall' => array(
+      'delta' => 'front-front_text_tall',
+      'module' => 'views',
+    ),
+    'views-front-quick_links_text' => array(
+      'delta' => 'front-quick_links_text',
+      'module' => 'views',
+    ),
+  );
+
   // q7
   $theme = array();
 
@@ -97,13 +127,13 @@ function asc_front_default_fe_block_settings() {
     'cache' => -1,
   );
 
-  $export['q7'] = $theme;
+  $export['theme']['q7'] = $theme;
 
   $theme_default = variable_get('theme_default', 'garland');
   $themes = list_themes();
   foreach ($export as $theme_key => $settings) {
     if ($theme_key != $theme_default && empty($themes[$theme_key]->status)) {
-      unset($export[$theme_key]);
+      unset($export['theme'][$theme_key]);
     }
   }
   return $export;

@@ -24,3 +24,20 @@ function asc_front_ctools_plugin_api() {
 function asc_front_views_api() {
   return array("version" => "3.0");
 }
+
+/**
+ * Implements hook_node_info().
+ */
+function asc_front_node_info() {
+  $items = array(
+    'front_page' => array(
+      'name' => t('Front Page'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  return $items;
+}
