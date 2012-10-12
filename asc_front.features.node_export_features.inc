@@ -20,7 +20,7 @@ function asc_front_node_export_features_default() {
       \'promote\' => \'0\',
       \'sticky\' => \'0\',
       \'vuuid\' => \'ea3200f7-e0c0-2804-e145-102a1b9e3803\',
-      \'nid\' => \'2\',
+      \'nid\' => \'1\',
       \'type\' => \'front_page\',
       \'language\' => \'und\',
       \'created\' => \'1350068911\',
@@ -156,7 +156,7 @@ function asc_front_node_export_features_default() {
       \'path\' => array(
         \'pid\' => \'2\',
         \'source\' => \'node/2\',
-        \'alias\' => \'content/front\',
+        \'alias\' => \'content/front-page\',
         \'language\' => \'und\',
       ),
       \'menu\' => NULL,
