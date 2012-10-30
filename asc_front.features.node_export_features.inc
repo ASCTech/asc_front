@@ -11,8 +11,8 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'2\',
-      \'uid\' => \'1\',
+      \'vid\' => \'1\',
+      \'uid\' => \'0\',
       \'title\' => \'Front Page\',
       \'log\' => \'\',
       \'status\' => \'1\',
@@ -20,15 +20,15 @@ function asc_front_node_export_features_default() {
       \'promote\' => \'0\',
       \'sticky\' => \'0\',
       \'vuuid\' => \'f99bf787-530a-1a04-e171-e816a7e8c591\',
-      \'nid\' => \'2\',
+      \'nid\' => \'1\',
       \'type\' => \'front_page\',
       \'language\' => \'und\',
-      \'created\' => \'1351514928\',
-      \'changed\' => \'1351518555\',
+      \'created\' => \'1351523381\',
+      \'changed\' => \'1351523467\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'8c481ecd-1008-fbf4-1d15-a51c1bc545cd\',
-      \'revision_timestamp\' => \'1351518555\',
+      \'revision_timestamp\' => \'1351523467\',
       \'revision_uid\' => \'1\',
       \'body\' => array(
         \'und\' => array(
@@ -44,16 +44,16 @@ function asc_front_node_export_features_default() {
       \'field_asc_quick_links\' => array(
         \'und\' => array(
           array(
-            \'value\' => \'Quick Links Test\',
+            \'value\' => \'Quick Links Text\',
             \'format\' => NULL,
-            \'safe_value\' => \'Quick Links Test\',
+            \'safe_value\' => \'Quick Links Text\',
           ),
         ),
       ),
       \'field_slideshow\' => array(
         \'und\' => array(
           array(
-            \'fid\' => \'1\',
+            \'fid\' => \'2\',
             \'alt\' => NULL,
             \'title\' => NULL,
             \'width\' => \'4288\',
@@ -64,16 +64,16 @@ function asc_front_node_export_features_default() {
             \'filemime\' => \'image/jpeg\',
             \'filesize\' => \'9976145\',
             \'status\' => \'1\',
-            \'timestamp\' => \'1351514923\',
+            \'timestamp\' => \'1351523463\',
             \'type\' => \'image\',
-            \'uuid\' => \'76032384-6708-49f4-2d9d-43846f8fb76e\',
+            \'uuid\' => \'5d06dc85-3f7c-f714-a92c-b14c2388b607\',
             \'field_caption\' => array(),
             \'field_file_image_alt_text\' => array(
               \'und\' => array(
                 array(
-                  \'value\' => \'sdf\',
+                  \'value\' => \'House\',
                   \'format\' => NULL,
-                  \'safe_value\' => \'sdf\',
+                  \'safe_value\' => \'House\',
                 ),
               ),
             ),
@@ -150,12 +150,12 @@ function asc_front_node_export_features_default() {
           \'callback\' => \'date_iso8601\',
         ),
       ),
-      \'name\' => \'admin\',
+      \'name\' => \'\',
       \'picture\' => \'0\',
-      \'data\' => \'b:0;\',
+      \'data\' => NULL,
       \'path\' => array(
         \'pid\' => \'1\',
-        \'source\' => \'node/2\',
+        \'source\' => \'node/1\',
         \'alias\' => \'content/front-page\',
         \'language\' => \'und\',
       ),

@@ -14,6 +14,14 @@ function asc_front_default_fe_block_settings() {
 
   // Theme independent visibility settings.
   $export['visibility'] = array(
+    'asc_footer-asc_footer' => array(
+      'delta' => 'asc_footer',
+      'module' => 'asc_footer',
+    ),
+    'asc_socialmedia-asc_socialmedia' => array(
+      'delta' => 'asc_socialmedia',
+      'module' => 'asc_socialmedia',
+    ),
     'menu-menu-quick-links' => array(
       'delta' => 'menu-quick-links',
       'module' => 'menu',
@@ -43,12 +51,40 @@ function asc_front_default_fe_block_settings() {
   // q7
   $theme = array();
 
+  $theme['asc_footer-asc_footer'] = array(
+    'module' => 'asc_footer',
+    'delta' => 'asc_footer',
+    'theme' => 'q7',
+    'status' => '1',
+    'weight' => '-29',
+    'region' => 'footer_first',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => 8,
+  );
+
+  $theme['asc_socialmedia-asc_socialmedia'] = array(
+    'module' => 'asc_socialmedia',
+    'delta' => 'asc_socialmedia',
+    'theme' => 'q7',
+    'status' => '1',
+    'weight' => '-10',
+    'region' => 'footer_third',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => 8,
+  );
+
   $theme['menu-menu-quick-links'] = array(
     'module' => 'menu',
     'delta' => 'menu-quick-links',
     'theme' => 'q7',
     'status' => '1',
-    'weight' => '-21',
+    'weight' => '-17',
     'region' => 'header_second',
     'custom' => '0',
     'visibility' => '1',
@@ -62,7 +98,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-block_1',
     'theme' => 'q7',
     'status' => 0,
-    'weight' => '-4',
+    'weight' => '-16',
     'region' => '',
     'custom' => '0',
     'visibility' => '1',
@@ -90,7 +126,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-front_text_short',
     'theme' => 'q7',
     'status' => '1',
-    'weight' => '-22',
+    'weight' => '-17',
     'region' => 'preface_first',
     'custom' => '0',
     'visibility' => '1',
@@ -104,7 +140,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-front_text_tall',
     'theme' => 'q7',
     'status' => 0,
-    'weight' => '-14',
+    'weight' => '-15',
     'region' => '',
     'custom' => '0',
     'visibility' => '0',
@@ -118,7 +154,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-quick_links_text',
     'theme' => 'q7',
     'status' => '1',
-    'weight' => '-22',
+    'weight' => '-17',
     'region' => 'header_second',
     'custom' => '0',
     'visibility' => '1',
