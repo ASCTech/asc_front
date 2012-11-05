@@ -22,6 +22,16 @@ function asc_front_default_fe_block_settings() {
       'delta' => 'asc_socialmedia',
       'module' => 'asc_socialmedia',
     ),
+    'asc_socialmedia-asc_socialmedia_sharing' => array(
+      'delta' => 'asc_socialmedia_sharing',
+      'module' => 'asc_socialmedia',
+      'node_type' => array(
+        'asc_blog' => TRUE,
+        'asc_event' => TRUE,
+        'asc_news' => TRUE,
+        'page' => TRUE,
+      ),
+    ),
     'menu-menu-quick-links' => array(
       'delta' => 'menu-quick-links',
       'module' => 'menu',
@@ -77,6 +87,20 @@ function asc_front_default_fe_block_settings() {
     'pages' => '',
     'title' => '',
     'cache' => 8,
+  );
+
+  $theme['asc_socialmedia-asc_socialmedia_sharing'] = array(
+    'module' => 'asc_socialmedia',
+    'delta' => 'asc_socialmedia_sharing',
+    'theme' => 'q7',
+    'status' => '1',
+    'weight' => '50',
+    'region' => 'content',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '',
+    'title' => '',
+    'cache' => 4,
   );
 
   $theme['menu-menu-quick-links'] = array(
