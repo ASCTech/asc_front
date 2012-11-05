@@ -11,8 +11,8 @@ function asc_front_node_export_features_default() {
   $node_export = array(
   'code_string' => 'array(
   (object) array(
-      \'vid\' => \'4\',
-      \'uid\' => \'1\',
+      \'vid\' => \'1\',
+      \'uid\' => \'0\',
       \'title\' => \'Front Page\',
       \'log\' => \'\',
       \'status\' => \'1\',
@@ -20,16 +20,16 @@ function asc_front_node_export_features_default() {
       \'promote\' => \'0\',
       \'sticky\' => \'0\',
       \'vuuid\' => \'f99bf787-530a-1a04-e171-e816a7e8c591\',
-      \'nid\' => \'3\',
+      \'nid\' => \'1\',
       \'type\' => \'front_page\',
       \'language\' => \'und\',
-      \'created\' => \'1352129411\',
-      \'changed\' => \'1352129598\',
+      \'created\' => \'1352130567\',
+      \'changed\' => \'1352130567\',
       \'tnid\' => \'0\',
       \'translate\' => \'0\',
       \'uuid\' => \'8c481ecd-1008-fbf4-1d15-a51c1bc545cd\',
-      \'revision_timestamp\' => \'1352129598\',
-      \'revision_uid\' => \'1\',
+      \'revision_timestamp\' => \'1352130567\',
+      \'revision_uid\' => \'0\',
       \'body\' => array(
         \'und\' => array(
           array(
@@ -106,12 +106,12 @@ function asc_front_node_export_features_default() {
           \'callback\' => \'date_iso8601\',
         ),
       ),
-      \'name\' => \'admin\',
+      \'name\' => \'\',
       \'picture\' => \'0\',
-      \'data\' => \'b:0;\',
+      \'data\' => NULL,
       \'path\' => array(
         \'pid\' => \'1\',
-        \'source\' => \'node/3\',
+        \'source\' => \'node/1\',
         \'alias\' => \'content/front-page\',
         \'language\' => \'und\',
       ),

@@ -36,6 +36,10 @@ function asc_front_default_fe_block_settings() {
       'delta' => 'menu-quick-links',
       'module' => 'menu',
     ),
+    'menu_block-1' => array(
+      'delta' => '1',
+      'module' => 'menu_block',
+    ),
     'views-front-block_1' => array(
       'delta' => 'front-block_1',
       'module' => 'views',
@@ -114,6 +118,20 @@ function asc_front_default_fe_block_settings() {
     'visibility' => '1',
     'pages' => '<front>',
     'title' => '<none>',
+    'cache' => -1,
+  );
+
+  $theme['menu_block-1'] = array(
+    'module' => 'menu_block',
+    'delta' => '1',
+    'theme' => 'q7',
+    'status' => '1',
+    'weight' => '0',
+    'region' => 'sidebar',
+    'custom' => '0',
+    'visibility' => '0',
+    'pages' => '<front>',
+    'title' => '',
     'cache' => -1,
   );
 
