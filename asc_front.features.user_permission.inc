@@ -48,5 +48,26 @@ function asc_front_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: administer asc_footer.
+  $permissions['administer asc_footer'] = array(
+    'name' => 'administer asc_footer',
+    'roles' => array(),
+    'roles' => array(
+      0 => 'Content Manager',
+      1 => 'Site Administrator',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: administer asc_socialmedia.
+  $permissions['administer asc_socialmedia'] = array(
+    'name' => 'administer asc_socialmedia',
+    'roles' => array(),
+    'roles' => array(
+      0 => 'Content Manager',
+      1 => 'Site Administrator',
+    ),
+    'module' => 'node',
+  );
   return $permissions;
 }
