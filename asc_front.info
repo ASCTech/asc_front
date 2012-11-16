@@ -8,6 +8,7 @@ dependencies[] = asc_footer
 dependencies[] = asc_image_handling
 dependencies[] = asc_menu_block
 dependencies[] = asc_socialmedia
+dependencies[] = color
 dependencies[] = ctools
 dependencies[] = ds
 dependencies[] = fe_block
