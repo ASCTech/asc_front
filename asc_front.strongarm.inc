@@ -49,6 +49,9 @@ function asc_front_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'front_rotor_full_width' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(

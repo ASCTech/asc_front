@@ -10,209 +10,245 @@
 function asc_front_default_fe_block_settings() {
   $export = array();
 
-  $export['version'] = '1.0';
+  $export['version'] = '2.0';
 
-  // Theme independent visibility settings.
-  $export['visibility'] = array(
-    'asc_footer-asc_footer' => array(
-      'delta' => 'asc_footer',
-      'module' => 'asc_footer',
-    ),
-    'asc_socialmedia-asc_socialmedia' => array(
-      'delta' => 'asc_socialmedia',
-      'module' => 'asc_socialmedia',
-    ),
-    'asc_socialmedia-asc_socialmedia_sharing' => array(
-      'delta' => 'asc_socialmedia_sharing',
-      'module' => 'asc_socialmedia',
-      'node_type' => array(
-        'asc_blog' => TRUE,
-        'asc_event' => TRUE,
-        'asc_news' => TRUE,
-        'page' => TRUE,
+  $export['asc_footer-asc_footer'] = array(
+    'cache' => 8,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'asc_footer',
+    'module' => 'asc_footer',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => 'footer_first',
+        'status' => 1,
+        'theme' => 'q7',
+        'weight' => -29,
       ),
     ),
-    'menu-menu-quick-links' => array(
-      'delta' => 'menu-quick-links',
-      'module' => 'menu',
-    ),
-    'menu_block-1' => array(
-      'delta' => '1',
-      'module' => 'menu_block',
-    ),
-    'views-front-block_1' => array(
-      'delta' => 'front-block_1',
-      'module' => 'views',
-    ),
-    'views-front-block_2' => array(
-      'delta' => 'front-block_2',
-      'module' => 'views',
-    ),
-    'views-front-front_text_short' => array(
-      'delta' => 'front-front_text_short',
-      'module' => 'views',
-    ),
-    'views-front-front_text_tall' => array(
-      'delta' => 'front-front_text_tall',
-      'module' => 'views',
-    ),
-    'views-front-quick_links_text' => array(
-      'delta' => 'front-quick_links_text',
-      'module' => 'views',
-    ),
-  );
-
-  // q7
-  $theme = array();
-
-  $theme['asc_footer-asc_footer'] = array(
-    'module' => 'asc_footer',
-    'delta' => 'asc_footer',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-29',
-    'region' => 'footer_first',
-    'custom' => '0',
-    'visibility' => '0',
-    'pages' => '',
     'title' => '',
-    'cache' => 8,
+    'visibility' => 0,
   );
 
-  $theme['asc_socialmedia-asc_socialmedia'] = array(
-    'module' => 'asc_socialmedia',
+  $export['asc_socialmedia-asc_socialmedia'] = array(
+    'cache' => 8,
+    'css_class' => '',
+    'custom' => 0,
     'delta' => 'asc_socialmedia',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-10',
-    'region' => 'footer_third',
-    'custom' => '0',
-    'visibility' => '0',
-    'pages' => '',
-    'title' => '',
-    'cache' => 8,
-  );
-
-  $theme['asc_socialmedia-asc_socialmedia_sharing'] = array(
     'module' => 'asc_socialmedia',
-    'delta' => 'asc_socialmedia_sharing',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '50',
-    'region' => 'content',
-    'custom' => '0',
-    'visibility' => '0',
+    'node_types' => array(),
     'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => 'footer_third',
+        'status' => 1,
+        'theme' => 'q7',
+        'weight' => -10,
+      ),
+    ),
     'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['asc_socialmedia-asc_socialmedia_sharing'] = array(
     'cache' => 4,
-  );
-
-  $theme['menu-menu-quick-links'] = array(
-    'module' => 'menu',
-    'delta' => 'menu-quick-links',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-17',
-    'region' => 'header_second',
-    'custom' => '0',
-    'visibility' => '1',
-    'pages' => '<front>',
-    'title' => '<none>',
-    'cache' => -1,
-  );
-
-  $theme['menu_block-1'] = array(
-    'module' => 'menu_block',
-    'delta' => '1',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '0',
-    'region' => 'sidebar',
-    'custom' => '0',
-    'visibility' => '0',
-    'pages' => '<front>',
-    'title' => '',
-    'cache' => -1,
-  );
-
-  $theme['views-front-block_1'] = array(
-    'module' => 'views',
-    'delta' => 'front-block_1',
-    'theme' => 'q7',
-    'status' => 0,
-    'weight' => '-16',
-    'region' => '',
-    'custom' => '0',
-    'visibility' => '1',
-    'pages' => '<front>',
-    'title' => '',
-    'cache' => -1,
-  );
-
-  $theme['views-front-block_2'] = array(
-    'module' => 'views',
-    'delta' => 'front-block_2',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-15',
-    'region' => 'header_first',
-    'custom' => '0',
-    'visibility' => '1',
-    'pages' => '<front>',
-    'title' => '',
-    'cache' => -1,
-  );
-
-  $theme['views-front-front_text_short'] = array(
-    'module' => 'views',
-    'delta' => 'front-front_text_short',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-17',
-    'region' => 'preface_first',
-    'custom' => '0',
-    'visibility' => '1',
-    'pages' => '<front>',
-    'title' => '',
-    'cache' => -1,
-  );
-
-  $theme['views-front-front_text_tall'] = array(
-    'module' => 'views',
-    'delta' => 'front-front_text_tall',
-    'theme' => 'q7',
-    'status' => 0,
-    'weight' => '-15',
-    'region' => '',
-    'custom' => '0',
-    'visibility' => '0',
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'asc_socialmedia_sharing',
+    'module' => 'asc_socialmedia',
+    'node_types' => array(
+      0 => 'asc_blog',
+      1 => 'asc_event',
+      2 => 'asc_news',
+    ),
     'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'q7',
+        'weight' => -28,
+      ),
+    ),
     'title' => '',
-    'cache' => -1,
+    'visibility' => 0,
   );
 
-  $theme['views-front-quick_links_text'] = array(
-    'module' => 'views',
-    'delta' => 'front-quick_links_text',
-    'theme' => 'q7',
-    'status' => '1',
-    'weight' => '-17',
-    'region' => 'header_second',
-    'custom' => '0',
-    'visibility' => '1',
+  $export['menu-menu-quick-links'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'menu-quick-links',
+    'module' => 'menu',
+    'node_types' => array(),
     'pages' => '<front>',
-    'title' => '',
-    'cache' => -1,
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -17,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
-  $export['theme']['q7'] = $theme;
+  $export['menu_block-1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 1,
+    'module' => 'menu_block',
+    'node_types' => array(
+      0 => 'page',
+      1 => 'webform',
+    ),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => 'sidebar',
+        'status' => 1,
+        'theme' => 'q7',
+        'weight' => -28,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
 
-  $theme_default = variable_get('theme_default', 'garland');
-  $themes = list_themes();
-  foreach ($export as $theme_key => $settings) {
-    if ($theme_key != $theme_default && empty($themes[$theme_key]->status)) {
-      unset($export['theme'][$theme_key]);
-    }
-  }
+  $export['views-front-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -36,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['views-front-block_2'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -15,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['views-front-front_full_width_slider'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-front_full_width_slider',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'q7',
+        'weight' => -37,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-front-front_text_short'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-front_text_short',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -17,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['views-front-front_text_tall'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-front_text_tall',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -15,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['views-front-quick_links_text'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'front-quick_links_text',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'q7' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'q7',
+        'weight' => -17,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   return $export;
 }

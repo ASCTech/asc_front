@@ -188,6 +188,37 @@ function asc_front_views_default_views() {
   $handler->display->display_options['row_options']['links'] = FALSE;
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['block_description'] = 'Front Short Slider';
+
+  /* Display: Front Full Width Slider */
+  $handler = $view->new_display('block', 'Front Full Width Slider', 'front_full_width_slider');
+  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
+  $handler->display->display_options['defaults']['style_plugin'] = FALSE;
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['defaults']['style_options'] = FALSE;
+  $handler->display->display_options['defaults']['row_plugin'] = FALSE;
+  $handler->display->display_options['row_plugin'] = 'node';
+  $handler->display->display_options['row_options']['view_mode'] = 'front_rotor_full_width';
+  $handler->display->display_options['row_options']['links'] = FALSE;
+  $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['block_description'] = 'Front Full Width Slider';
+  $translatables['front'] = array(
+    t('Master'),
+    t('<none>'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Page'),
+    t(' '),
+    t('Quick Links Text'),
+    t('Front Text Short'),
+    t('Front Text Tall'),
+    t('Front Tall Slider'),
+    t('Front Short Slider'),
+    t('Front Full Width Slider'),
+  );
   $export['front'] = $view;
 
   return $export;
