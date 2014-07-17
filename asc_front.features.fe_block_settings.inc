@@ -173,7 +173,7 @@ function asc_front_default_fe_block_settings() {
     'delta' => 'front-front_full_width_slider',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'q7' => array(
@@ -184,7 +184,7 @@ function asc_front_default_fe_block_settings() {
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-front-front_text_short'] = array(
